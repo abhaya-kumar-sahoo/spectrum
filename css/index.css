@@ -43,42 +43,7 @@ a{
 .bgimage{
 
 }
-@media screen and (max-width:600px) {
-  .bgimage{
-  
-  background-size: 100vw;
-  }
-  .cards{
-    margin-top: -65vh;
-  }
-  .logo img{
-    border-radius: 50%;
-    height:4rem;
-  }
-  .main-nav{
- 
-    height: 9vh;
-  }
-  .myside{
-    font-weight: 900;
-    font-size: 40px;
-    margin-right: 6vh;
-    
-  }
-  .spectrum h1{
-    
-    margin-left: -7vh;
-  }
-  .abs{
-   
-    padding-left: 1vh;
-    
-  }
-  .logo img{
-  height: 7vh;
-  padding-left: -10vh;
-  }
-}
+
 .main-nav{
   display: flex;
   justify-content: space-between;
@@ -178,4 +143,57 @@ i{
   color: white;
   font-size: 20px;
   padding-top: 20px;
+}
+
+@media screen and (max-width:600px) {
+  .bgimage{
+  
+  background-size: 100vw;
+  }
+  .cards{
+    margin-top: -65vh;
+  }
+  .logo img{
+    border-radius: 50%;
+    height:4rem;
+  }
+  .main-nav{
+  
+    height: 7vh;
+  }
+  .myside{
+    font-size: 30px;
+    margin-right: 6vh;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    
+  }
+  .spectrum h1{
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin-left: -7vh;
+    font-size: 15px;
+    padding-top: 7px;
+  }
+  .abs{
+   
+    padding-left: 1vh;
+    
+  }
+  .logo img{
+  height: 7vh;
+  padding-left: -10vh;
+  }
+  .cards{
+    font-size: 12px;
+  }
+  .tem{
+    height: 2vh;
+    padding-top: 3px;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
 }
